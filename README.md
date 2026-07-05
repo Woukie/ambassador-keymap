@@ -12,18 +12,7 @@ The following features are implemented in their own layers
 - System controls (bluetooth, studio unlock)
 - Personal macros
 
-## Design Details
-
-### Problems
-
-- There are not enough empty characters to have all keys on one layer, and introducing layers occludes characters on lower layers. This is practically unavoidable.
-- If a key often has combinations with base layer characters, it is a 'modifier' key. It needs special consideration to avoid making character combinations impossible.
-- A momentary layer consumes the finger triggering it, making other keys that would ususally be pressed by that finger inconvenient to press.
-- If hold/tap style behaviour is used on characters, repeat functionality is disabled, this is not ideal.
-
-### Solutions
-
-My 'modifier' layer is duplcated for each side of the keyboard, allowing for practically all combinations as the user decides which half of the keyboard to occlude, this is done with minimal complexity for the user and avoids common workaround pitfalls like sliding keys around and duplicate keys at lower layers.
+The 'modifier' layer is duplicated for each side of the keyboard, allowing for practically all combinations as the user decides which half of the keyboard to occlude, this is pretty easy to learn and and avoids common workaround pitfalls like sliding keys around and duplicate keys at lower layers.
 
 Additional layers that have modifier combinations, like navigation, have been made completley one-sided so that modifier cominations still work.
 
