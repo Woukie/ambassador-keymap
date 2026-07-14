@@ -27,4 +27,4 @@ Additional layers that have modifier combinations, like navigation, have been ma
 
 ## Installing
 
-The creation of this repo follows [this](https://github.com/victorlucachi/zmk-keyboards-totem). It currently only compiles for the `seeeduino_xiao_ble`, so fork and make modifications if this is not your controller.
+The creation of this repo follows [this](https://github.com/victorlucachi/zmk-keyboards-totem) repo. The releases tab contains the latest firmware for the `seeeduino_xiao_ble`. If this is not your controller, fork and make modifications to the `build.yml` as per the linked project else you risk bricking your controller.
