@@ -1,6 +1,6 @@
-# Full Dvorak TOTEM Keymap
+# The Ambassador's TOTEM Keymap
 
-This layout is faithful to the original Dvorak layout for alphabetic keys. All key combinations possible on a standard keyboard are possible in this keymap with minimal effort on the user.
+This keymap is faithful to the original Dvorak layout for alphabetic keys. All key combinations possible on a standard keyboard are possible in this keymap.
 
 The following features are implemented in their own layers
 - Alphabet
