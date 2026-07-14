@@ -24,3 +24,7 @@ Additional layers that have modifier combinations, like navigation, have been ma
 - I am hesitant to modify thumb keys across layers out of preference, however, the space and enter key (depending on side) are safe to overwrite within the modifier layer as well as the opposite modifier key if you are sure you will never want both layers active at the same time.
 - Backspace is on the right as I use it more than delete and my right hand is dominant.
 - Media and system layer keys are in the modifier layers but do not have modifier combinations for media and system keys. This means they can be re-located without issue, i.e. assigned to a combo.
+
+## Installing
+
+The creation of this repo follows [this](https://github.com/victorlucachi/zmk-keyboards-totem). It currently only compiles for the `seeeduino_xiao_ble`, so fork and make modifications if this is not your controller.
