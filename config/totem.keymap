@@ -174,18 +174,18 @@
 
         left_modifiers {
             bindings = <
-        &trans          &trans      &trans     &mo 6         &trans    &trans  &trans  &trans  &trans  &trans
+        &trans          &trans      &trans     &trans        &trans    &trans  &trans  &trans  &trans  &trans
         &kp LEFT_SHIFT  &kp ESCAPE  &kp LCTRL  &kp LCMD      &mo 3     &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &kp TAB     &kp CAPS   &kp LEFT_ALT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &kp TAB     &kp CAPS   &kp LEFT_ALT  &mo 6     &trans  &trans  &trans  &trans  &trans  &trans
                                     &trans     &trans        &trans    &trans  &trans  &trans
             >;
         };
 
         right_modifiers {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans     &trans   &mo 5
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans     &trans   &trans
         &trans  &trans  &trans  &trans  &trans    &mo 4   &kp RIGHT_GUI  &kp LCTRL  &kp ESC  &kp LSHFT
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RALT       &kp CAPS   &kp TAB  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mo 5   &kp RALT       &kp CAPS   &kp TAB  &trans     &trans
                         &trans  &trans  &trans    &trans  &trans         &trans
             >;
         };
