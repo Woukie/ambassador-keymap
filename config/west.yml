@@ -4,6 +4,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: zzeneg
+      url-base: https://github.com/zzeneg
+    - name: srwi
+      url-base: https://github.com/srwi
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -12,5 +16,11 @@ manifest:
       url: https://github.com/victorlucachi/zmk-keyboards-totem
       revision: main
       path: modules/zmk-keyboards-totem
+    - name: zmk-raw-hid
+      remote: zzeneg
+      revision: main
+    - name: zmk-keypeek-layer-notifier
+      remote: srwi
+      revision: master
   self:
     path: config
