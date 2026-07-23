@@ -147,10 +147,10 @@
 
         left_system {
             bindings = <
-                &trans      &trans      &trans      &trans      &trans    &trans  &trans  &trans  &trans  &trans
-                &bt BT_CLR  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans    &trans  &trans  &trans  &trans  &trans
-&studio_unlock  &trans      &trans      &trans      &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans      &trans      &trans    &trans  &trans  &trans
+                &trans          &trans      &trans      &trans      &trans    &trans  &trans  &trans  &trans  &trans
+                &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans    &trans  &trans  &trans  &trans  &trans
+&studio_unlock  &trans          &trans      &trans      &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                            &trans      &trans      &trans    &trans  &trans  &trans
             >;
         };
 
