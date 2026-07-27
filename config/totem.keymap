@@ -114,88 +114,88 @@
          &kp SQT        &kp COMMA  &kp DOT  &kp P  &kp Y        &kp F      &kp G  &kp C  &kp R  &kp L
          &kp A          &kp O      &kp E    &kp U  &kp I        &kp D      &kp H  &kp T  &kp N  &kp S
 &kp DEL  &kp SEMICOLON  &kp Q      &kp J    &kp K  &kp X        &kp B      &kp M  &kp W  &kp V  &kp Z  &kp BACKSPACE
-                                   &mo 1    &mo 7  &kp SPACE    &kp ENTER  &mo 8  &mo 2
+                                   &mo 6    &mo 7  &kp SPACE    &kp ENTER  &mo 8  &mo 2
             >;
         };
 
         left_navigation {
             bindings = <
-        &trans     &trans    &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans
-        &kp PG_UP  &kp LEFT  &kp UP    &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &kp PG_DN  &kp HOME  &kp DOWN  &kp END    &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                             &trans    &trans     &trans    &trans  &trans  &mo 9
+       &none  &kp HOME   &kp UP    &kp END    &none    &trans  &trans  &trans  &trans  &trans
+       &none  &kp LEFT   &kp DOWN  &kp RIGHT  &none    &trans  &trans  &trans  &trans  &trans
+&none  &none  &kp PG_UP  &none     &kp PG_DN  &none    &trans  &trans  &trans  &trans  &trans  &trans
+                         &none     &none      &none    &trans  &trans  &trans
             >;
         };
 
         right_extras {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans     &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &kp LBKT  &kp RBKT  &kp EQUAL  &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp FSLH  &kp BSLH  &kp GRAVE  &kp NON_US_HASH  &trans
-                        &mo 9   &trans  &trans    &trans  &trans    &trans
+        &trans  &trans  &trans  &trans  &trans    &none  &none     &none     &none      &none
+        &trans  &trans  &trans  &trans  &trans    &none  &kp LBKT  &kp RBKT  &kp EQUAL  &kp MINUS
+&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp FSLH  &kp BSLH  &kp GRAVE  &kp NON_US_HASH  &none
+                        &trans  &trans  &trans    &none  &none     &none
             >;
         };
 
         right_media {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans      &kp C_PLAY_PAUSE  &trans             &trans      &trans
+        &trans  &trans  &trans  &trans  &trans    &none       &kp C_PLAY_PAUSE  &none              &none       &none
         &trans  &trans  &trans  &trans  &trans    &kp C_MUTE  &kp C_VOLUME_UP   &kp C_VOLUME_DOWN  &kp C_NEXT  &kp C_PREV
-&trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans            &trans             &trans      &trans      &trans
-                        &trans  &trans  &trans    &trans      &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &none       &none             &none              &none       &none       &none
+                        &trans  &trans  &trans    &none       &none             &none
             >;
         };
 
         left_system {
             bindings = <
-                &trans          &trans      &trans      &trans      &trans    &trans  &trans  &trans  &trans  &trans
-                &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans    &trans  &trans  &trans  &trans  &trans
-&studio_unlock  &trans          &trans      &trans      &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                            &trans      &trans      &trans    &trans  &trans  &trans
+                &none           &none       &none       &none       &none    &trans  &trans  &trans  &trans  &trans
+                &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &none    &trans  &trans  &trans  &trans  &trans
+&studio_unlock  &none           &none       &none       &none       &none    &trans  &trans  &trans  &trans  &trans  &trans
+                                            &none       &none       &none    &trans  &trans  &trans
             >;
         };
 
         left_function {
             bindings = <
-        &kp F12  &kp F7  &kp F8  &kp F9  &trans    &trans  &trans  &trans  &trans  &trans
-        &kp F11  &kp F4  &kp F5  &kp F6  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans    &trans  &trans  &trans
+       &kp F12  &kp F7  &kp F8  &kp F9  &none    &trans  &trans  &trans  &trans  &trans
+       &kp F11  &kp F4  &kp F5  &kp F6  &none    &trans  &trans  &trans  &trans  &trans
+&none  &kp F10  &kp F1  &kp F2  &kp F3  &none    &trans  &trans  &trans  &trans  &trans  &trans
+                        &none   &none   &none    &trans  &trans  &trans
             >;
         };
 
-        right_numerical {
+        left_numerical {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &kp N4  &kp N5  &kp N6  &kp N0
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+       &none  &kp N7  &kp N8  &kp N9  &none     &trans  &trans  &trans  &trans  &trans
+       &none  &kp N4  &kp N5  &kp N6  &kp N0    &trans  &trans  &trans  &trans  &trans
+&none  &none  &kp N1  &kp N2  &kp N3  &none     &trans  &trans  &trans  &trans  &trans  &trans
+                      &none   &none   &none     &trans  &trans  &trans
             >;
         };
 
         left_modifiers {
             bindings = <
-        &trans          &trans      &trans     &trans        &trans    &trans  &trans  &trans  &trans  &trans
-        &kp LEFT_SHIFT  &kp ESCAPE  &kp LCTRL  &kp LCMD      &mo 6     &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &kp TAB     &kp CAPS   &kp LEFT_ALT  &mo 3     &trans  &trans  &trans  &trans  &trans  &trans
-                                    &trans     &trans        &trans    &trans  &trans  &trans
+       &none           &none       &none      &none         &none    &trans  &trans  &trans  &trans  &trans
+       &kp LEFT_SHIFT  &kp ESCAPE  &kp LCTRL  &kp LCMD      &none    &trans  &trans  &trans  &trans  &trans
+&mo 1  &none           &kp TAB     &kp CAPS   &kp LEFT_ALT  &mo 3    &trans  &trans  &trans  &trans  &trans  &trans
+                                   &none      &none         &none    &trans  &trans  &trans
             >;
         };
 
         right_modifiers {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans     &trans   &trans
-        &trans  &trans  &trans  &trans  &trans    &mo 5   &kp RIGHT_GUI  &kp LCTRL  &kp ESC  &kp LSHFT
-&trans  &trans  &trans  &trans  &trans  &trans    &mo 4   &kp RALT       &kp CAPS   &kp TAB  &trans     &trans
-                        &trans  &trans  &trans    &trans  &trans         &trans
+        &trans  &trans  &trans  &trans  &trans    &none  &none          &none      &none    &none
+        &trans  &trans  &trans  &trans  &trans    &none  &kp RIGHT_GUI  &kp LCTRL  &kp ESC  &kp LSHFT
+&trans  &trans  &trans  &trans  &trans  &trans    &mo 4  &kp RALT       &kp CAPS   &kp TAB  &none      &mo 5
+                        &trans  &trans  &trans    &none  &none          &none
             >;
         };
 
         user_macros {
             bindings = <
-        &trans  &trans  &trans           &trans           &trans    &trans  &emoji_thumbs_up    &trans              &trans       &trans
-        &trans  &trans  &emoji_whiteify  &emoji_brownify  &trans    &trans  &emoji_sob          &emoji_pregant_man  &emoji_rofl  &trans
-&trans  &trans  &trans  &trans           &trans           &trans    &trans  &emoji_thumbs_down  &emoji_joy          &trans       &trans  &trans
-                        &trans           &trans           &trans    &trans  &trans              &trans
+       &none  &none  &none            &none            &none    &none  &emoji_thumbs_up    &none               &none        &none
+       &none  &none  &emoji_whiteify  &emoji_brownify  &none    &none  &emoji_sob          &emoji_pregant_man  &emoji_rofl  &none
+&none  &none  &none  &none            &none            &none    &none  &emoji_thumbs_down  &emoji_joy          &none        &none  &none
+                     &none            &none            &none    &none  &none               &none
             >;
         };
 
