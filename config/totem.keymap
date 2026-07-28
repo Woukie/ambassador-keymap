@@ -29,7 +29,15 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        pound {
+            bindings = <&kp POUND>;
+            key-positions = <11 36 27>;
+            layers = <3>;
+        };
+    };
 
     macros {
         emoji_brownify: emoji_brownify {
@@ -165,10 +173,10 @@
 
         right_modifiers {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &none  &none          &none      &none    &none
-        &trans  &trans  &trans  &trans  &trans    &mo 1  &kp RIGHT_GUI  &kp LCTRL  &kp ESC  &kp LSHFT
-&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp RALT       &kp CAPS   &kp TAB  &none      &mo 2
-                        &trans  &trans  &trans    &none  &none          &none
+        &trans  &trans  &trans  &trans  &trans    &none  &none         &none      &none    &none
+        &trans  &trans  &trans  &trans  &trans    &mo 1  &kp LEFT_GUI  &kp LCTRL  &kp ESC  &kp LSHFT
+&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp LEFT_ALT  &kp CAPS   &kp TAB  &none      &mo 2
+                        &trans  &trans  &trans    &none  &none         &none
             >;
         };
 
@@ -176,7 +184,7 @@
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &none  &none     &none     &none      &none
         &trans  &trans  &trans  &trans  &trans    &none  &kp LBKT  &kp RBKT  &kp EQUAL  &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp FSLH  &kp BSLH  &kp GRAVE  &kp NON_US_HASH  &none
+&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp FSLH  &kp BSLH  &kp GRAVE  &none      &none
                         &trans  &trans  &trans    &none  &none     &none
             >;
         };
