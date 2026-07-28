@@ -29,7 +29,15 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        pound {
+            bindings = <&kp POUND>;
+            key-positions = <11 36 27>;
+            layers = <3>;
+        };
+    };
 
     macros {
         emoji_brownify: emoji_brownify {
