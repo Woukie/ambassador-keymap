@@ -34,8 +34,7 @@
 
         pound {
             bindings = <&kp POUND>;
-            key-positions = <11 36 27>;
-            layers = <3 6>;
+            key-positions = <11 36 27 32>;
         };
     };
 
@@ -122,16 +121,7 @@
          &kp SQT        &kp COMMA  &kp DOT  &kp P  &kp Y        &kp F      &kp G  &kp C  &kp R  &kp L
          &kp A          &kp O      &kp E    &kp U  &kp I        &kp D      &kp H  &kp T  &kp N  &kp S
 &kp DEL  &kp SEMICOLON  &kp Q      &kp J    &kp K  &kp X        &kp B      &kp M  &kp W  &kp V  &kp Z  &kp BACKSPACE
-                                   &mo 3    &mo 4  &kp SPACE    &kp ENTER  &mo 6  &mo 7
-            >;
-        };
-
-        left_system {
-            bindings = <
-                &none           &none       &none       &none       &none    &trans  &trans  &trans  &trans  &trans
-                &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &none    &trans  &trans  &trans  &trans  &trans
-&studio_unlock  &none           &none       &none       &none       &none    &trans  &trans  &trans  &trans  &trans  &trans
-                                            &none       &none       &none    &trans  &trans  &trans
+                                   &mo 2    &mo 3  &kp SPACE    &kp ENTER  &mo 6  &mo 7
             >;
         };
 
@@ -157,8 +147,17 @@
             bindings = <
        &none           &none       &none      &none         &none    &trans  &trans  &trans  &trans  &trans
        &kp LEFT_SHIFT  &kp ESCAPE  &kp LCTRL  &kp LCMD      &mo 8    &trans  &trans  &trans  &trans  &trans
-&mo 5  &none           &kp TAB     &kp CAPS   &kp LEFT_ALT  &none    &trans  &trans  &trans  &trans  &trans  &trans
+&mo 6  &none           &kp TAB     &kp CAPS   &kp LEFT_ALT  &none    &trans  &trans  &trans  &trans  &trans  &trans
                                    &none      &none         &none    &trans  &trans  &trans
+            >;
+        };
+
+        left_system {
+            bindings = <
+                &none           &none       &none       &none       &none    &trans  &trans  &trans  &trans  &trans
+                &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &none    &trans  &trans  &trans  &trans  &trans
+&studio_unlock  &none           &none       &none       &none       &none    &trans  &trans  &trans  &trans  &trans  &trans
+                                            &none       &none       &none    &trans  &trans  &trans
             >;
         };
 
@@ -174,8 +173,8 @@
         right_modifiers {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &none  &none         &none      &none    &none
-        &trans  &trans  &trans  &trans  &trans    &mo 1  &kp LEFT_GUI  &kp LCTRL  &kp ESC  &kp LSHFT
-&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp LEFT_ALT  &kp CAPS   &kp TAB  &none      &mo 2
+        &trans  &trans  &trans  &trans  &trans    &mo 5  &kp LEFT_GUI  &kp LCTRL  &kp ESC  &kp LSHFT
+&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp LEFT_ALT  &kp CAPS   &kp TAB  &none      &mo 1
                         &trans  &trans  &trans    &none  &none         &none
             >;
         };
